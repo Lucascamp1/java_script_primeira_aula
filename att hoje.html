@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x
+        var y
+        var operacao
+        var resultado
+    
+        x = window.prompt("Digite o primeiro número: ");
+        y = window.prompt("Digite o segundo número: ");
+        operacao = window.prompt("Digite a operação que você deseja: ", "(1- Adição) (2- Subtração) (3- Multiplicação) (4- Divisão)");
+
+        x = Number(x);
+        y = Number(y);
+
+        if  (operacao==1) {
+        resultado= x+y
+        document.write(resultado)
+        }
+
+     
+        if (operacao==2){
+        resultado= x-y
+        document.write(resultado)
+        }
+
+     
+        if (operacao==3){
+        resultado= x*y
+        document.write(resultado)
+        }
+
+     
+        if (operacao==4){
+        resultado= x/y
+        document.write(resultado)
+        }
+
+    </script>
+</body>
+</html>
